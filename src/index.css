@@ -59,13 +59,6 @@ td{
   margin: 100px;
 }
 
-tr:hover{
-  background-color: rgb(214, 225, 228);
-}
-
-.name:hover{
-  background-color: white;
-}
 
 .errmsg{
   width: 100%;
