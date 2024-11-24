@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.searchbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.searchbox{
+  width: 98%;
+  padding: 10px;
+  outline: none;
+  text-indent: 20px;
+  border-radius: 10px;
+}
+
+
+.emp table{
+  width: 100%;
+  padding: 5px;
+}
+
+.icon{
+  margin: 0 5px;
+  color: blue;
+}
+
+.icon:hover{
+  cursor: pointer;
+}
+
+.delete{
+  color: red;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+thead tr th{
+  padding: 12px;
+}
+
+
+thead , tbody tr {
+  border: 1px solid rgb(237, 226, 226);
+}
+
+td{
+  padding: 12px;
+  margin: 100px;
+}
+
+tr:hover{
+  background-color: rgb(214, 225, 228);
+}
+
+.name:hover{
+  background-color: white;
+}
+
+.errmsg{
+  width: 100%;
+  text-align: center;
+  color: rgb(239, 80, 52);
+  margin: 40px;
+}
+
+.pagi{
+  display: flex;
+  justify-content: space-around;
+}
+
+.pageNum{
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+  border-radius: 50px;
+  color: white;
+  border: none;
+}
+
+.delAll{
+  border: none;
+  margin: 10px;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.active{
+  background-color: blue;
+}
